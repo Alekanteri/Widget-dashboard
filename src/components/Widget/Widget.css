@@ -1,0 +1,29 @@
+.widget {
+  position: absolute;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: white;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  user-select: none;
+}
+
+.widget-name {
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.widget-value {
+  text-align: right;
+  font-weight: bold;
+  align-self: flex-end;
+}
