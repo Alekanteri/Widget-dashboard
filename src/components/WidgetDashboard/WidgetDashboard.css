@@ -19,14 +19,12 @@
   font-size: 18px;
 }
 
-/* Оптимизация рендеринга */
 .widget {
   will-change: transform;
   transform: translateZ(0);
   backface-visibility: hidden;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
   .widget {
     font-size: 8px;
